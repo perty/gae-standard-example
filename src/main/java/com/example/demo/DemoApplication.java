@@ -16,7 +16,7 @@ public class DemoApplication {
 
 	@GetMapping("/")
 	public String hello() {
-		return "hello world!";
+		return "<ul><li><a href='/greeting'>A greeting</a><li><a href='/greetings'>Greetings</a></ul>";
 	}
 }
 
